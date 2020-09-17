@@ -122,6 +122,7 @@ type AmazonAdvancedConfiguration struct {
 	MaxUploadParts int    `env:"MAX_UPLOAD_PARTS, default=10000"`
 	DisableSSL     bool   `env:"DISABLE_SSL, default=false"`
 	NoVerifySSL    bool   `env:"NO_VERIFY_SSL, default=false"`
+	LogOptions     string `env:"AWS_LOG_OPTS, default="`
 }
 
 // EnvVarToSecretKey is an environment variable name to secret key mapping
