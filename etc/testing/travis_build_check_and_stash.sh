@@ -73,7 +73,7 @@ fi
 
 docker login -u pachydermbuildbot -p "${DOCKER_PWD}"
 
-cd /home/travis/gopath/src/github.com/pachyderm
+cd /home/travis/gopath/src/github.com/mohneesh9797-puresoftware
 mkdir -p /tmp/save_git_tarball
 tar cf /tmp/save_git_tarball/pachyderm.tar pachyderm
 cd /tmp/save_git_tarball
